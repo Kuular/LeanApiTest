@@ -2,9 +2,10 @@ import allure
 import pytest
 from assertpy import assert_that
 
-from req import create_customer, get_list_customers, get_customer_by_app_user_id, get_customer_by_id
+from tests.config.environments import Environments
+from tests.req import get_list_customers, get_customer_by_id, get_customer_by_app_user_id, create_customer
 
-LEAN_APP_TOKEN = token()
+LEAN_APP_TOKEN = Environments().get_token
 
 
 @allure.description("Test the customer creation process")
