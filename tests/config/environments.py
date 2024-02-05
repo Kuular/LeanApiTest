@@ -15,4 +15,4 @@ class Environments(object):
 
     @property
     def get_token(self):
-        return os.environ.get('token', default='')
+        return os.environ["lean_token"]
