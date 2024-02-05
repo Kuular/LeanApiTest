@@ -23,8 +23,8 @@ def create_customer(lean_app_token: str, app_user_id: str = random_user) -> tupl
 def get_list_customers(lean_app_token: str) -> list[dict]:
     with allure.step(f"Get the list Customers"):
         params = {
-            "page_number": 0,
-            "page_size": 0
+            "page_number": 1,
+            "page_size": 2
         }
         response = requests.get(url=LEANTECH_URL, headers=get_headers(lean_app_token), params=params).json()["data"]
         return response
