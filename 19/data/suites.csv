@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 06 10:04:28 GMT 2024","Tue Feb 06 10:04:28 GMT 2024","696","tests","test_customer_creation","TestCustomerCreation","","","test_get_customer_by_id","Test the customer creation process"
+"failed","Tue Feb 06 10:04:26 GMT 2024","Tue Feb 06 10:04:27 GMT 2024","714","tests","test_customer_creation","TestCustomerCreation","","","test_list_customers","Test the customer creation process"
+"passed","Tue Feb 06 10:04:27 GMT 2024","Tue Feb 06 10:04:28 GMT 2024","677","tests","test_customer_creation","TestCustomerCreation","","","test_get_customer_by_app_user_id","Test the customer creation process"
